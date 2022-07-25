@@ -1,0 +1,19 @@
+@import "../../styles/index";
+
+.message-metadata {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
+
+  &__display-name {
+    @include type($font-weight: 700, $line-height: 24 / 16);
+    margin-right: 8px;
+    display: inline;
+  }
+
+  &__time {
+    @include type($font-size: 1.2rem, $line-height: 18 / 12);
+    display: inline;
+  }
+}

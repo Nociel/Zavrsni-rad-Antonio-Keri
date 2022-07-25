@@ -1,0 +1,12 @@
+@import "./styles/index";
+@import "the-new-css-reset";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $color-background;
+  color: $color-text;
+  font-size: $size-rem;
+}

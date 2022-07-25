@@ -1,0 +1,18 @@
+@import "../../styles/index";
+
+.input-form-field {
+  display: block;
+  width: 100%;
+
+  &__label {
+    @include type($font-size: 1.4rem);
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  &__element {
+    display: block;
+    width: 100%;
+  }
+}

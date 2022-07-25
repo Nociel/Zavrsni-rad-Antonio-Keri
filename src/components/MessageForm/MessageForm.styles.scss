@@ -1,0 +1,18 @@
+.message-form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: stretch;
+  align-items: center;
+
+  &__input {
+    flex: 1 1 auto;
+    margin-right: 4px;
+    display: block;
+    width: 100%;
+  }
+
+  &__button {
+    flex: 0 0 auto;
+    display: inline-block;
+  }
+}

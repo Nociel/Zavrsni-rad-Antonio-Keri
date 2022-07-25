@@ -1,0 +1,36 @@
+@import "../../styles/index";
+
+.chat-page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+  height: 100vh;
+  width: calc(100% - #{2 * $size-wrapper-margin});
+  margin: 0 auto;
+
+  &__title {
+    @include type($font-size: 2.4rem, $font-weight: 700);
+    flex: 0 0 auto;
+    margin: 24px 0;
+    text-align: center;
+  }
+
+  &__message-list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+
+  &__message-list-item {
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__form {
+    flex: 0 0 auto;
+    margin: 16px 0;
+  }
+}

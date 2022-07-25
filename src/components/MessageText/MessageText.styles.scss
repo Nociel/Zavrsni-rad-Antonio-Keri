@@ -1,0 +1,9 @@
+@import "../../styles/index";
+
+.message-text {
+  &__content {
+    @include type($line-height: 24 / 16);
+    display: block;
+    width: 100%;
+  }
+}
